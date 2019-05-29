@@ -7,12 +7,16 @@ public class User {
 	private String description = "";
 	private String description2 = "";
 	private String description3 = "";
-	
-	
-	private String description4 = "";
+
 	
 	
 	
+	public String getDescription3() {
+		return description3;
+	}
+	public void setDescription3(String description3) {
+		this.description3 = description3;
+	}
 	public String getDescription2() {
 		return description2;
 	}
