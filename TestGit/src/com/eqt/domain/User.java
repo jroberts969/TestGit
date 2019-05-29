@@ -8,7 +8,7 @@ public class User {
 	private String description2 = "";
 	private String description3 = "";
 	private String data = "";
-	
+	private String data2 = "";	
 	
 	
 	public String getDescription3() {
