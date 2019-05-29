@@ -7,6 +7,7 @@ public class Address {
 	private String line2 = "";
 	private String line3 = "";
 	private String line4 = "";
+	private String line5 = "";
 	private String postCode = "";
 	
 	public String getLine1() {
