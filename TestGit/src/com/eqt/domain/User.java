@@ -10,6 +10,15 @@ public class User {
 	private String data = "";
 	private String data2 = "";	
 	
+	public static void main(String[] args) {
+		
+		User user = new User();
+		user.setUsername("Bob");
+		
+		System.out.println(user);
+		
+	}
+	
 	
 	public String getDescription3() {
 		return description3;
@@ -48,6 +57,14 @@ public class User {
 	}
 	public void setAddress(Address address) {
 		this.address = address;
+	}
+
+
+	@Override
+	public String toString() {
+		return "User [username=" + username + ", email=" + email + ", description=" + description + ", description2="
+				+ description2 + ", description3=" + description3 + ", data=" + data + ", data2=" + data2 + ", address="
+				+ address + "]";
 	}
 			
 
